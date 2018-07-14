@@ -7,18 +7,24 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material';
 import { MatIconModule } from '@angular/material';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    FormComponent,
   ],
   imports: [
     BrowserModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSidenavModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
