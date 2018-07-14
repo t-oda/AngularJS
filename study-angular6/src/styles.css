@@ -19,3 +19,10 @@
   .p-right{
     text-align: right;
   }
+  .example-form{
+      display: flex;
+  }
+  .example-form-long{
+    display: flex;
+    flex-direction: column;
+}

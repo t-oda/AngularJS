@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-form',
   templateUrl: './form.component.html',
   styleUrls: ['./form.component.css']
+
 })
 export class FormComponent implements OnInit {
 
@@ -11,5 +12,9 @@ export class FormComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  departments=[
+    { value: 100, viewValue: '' },
+    { value: 101, viewValue: '問い合わせ種別１' },
+    { value: 102, viewValue: '問い合わせ種別２' }
+  ]
 }
